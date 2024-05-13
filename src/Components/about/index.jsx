@@ -14,7 +14,7 @@ export default function About() {
           </div>
           
           <div className="flex justify-center items-center">
-          <img className="max-w-[300px] w-full rounded-md shadow-lg flex justify-center items-c" src="public/images/img1.jpg" alt="about image" />
+          <img className="max-w-[300px] w-full rounded-md shadow-lg flex justify-center items-c" src="./images/img1.jpg" alt="about image" />
           </div>
         </div>
       </div>
