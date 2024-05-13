@@ -1,15 +1,16 @@
 import React from "react";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 export default function About() {
   return (
     <>
-      <div id="about" className="max-w-[1500px] m-auto p-4  border-2 border-red-500">
+      <div id="about" className="max-w-5xl m-auto p-4 py-6 ">
         
-        <div className="grid grid-cols-3 w-full gap-8 " >
-          <div className="col-span-2 flex justify-center items-start flex-col">
+        <div className="grid grid-cols-3 w-full gap-8 max-sm:grid-cols-1" >
+          <div className="col-span-2 flex justify-center items-start flex-col max-sm:col-span-1">
           <h1 className="text-left text-2xl font-bold ">About Me</h1>
-          <p className="col-span-2 text-sm leading-7 flex justify-center items-center pt-5 pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit tempora, dolore debitis, voluptates vitae error alias eaque nostrum totam iste natus, perspiciatis similique porro recusandae a quidem. Commodi, debitis repudiandae!</p>
-          <button className="bg-[#0a2351] text-white font-bold p-2 rounded-md">Hire me</button>
+          <p className="col-span-2 flex justify-center items-center pt-5 pb-4 text-md leading-9  mb-4">I am a person who is energetic, self-motivated, trustworthy, responsible, and hardworking. As a team player, I adapt well to any situation and can operate effectively in a team setting as well as on my own initiative. I can operate effectively under duress and meet tight deadlines. !</p>
+          <button className=" bg-[#2A78CB] text-white font-bold p-2 rounded-md tracking-wider" > <AnchorLink href='#contact'> Contact Me</AnchorLink></button>
           </div>
           
           <div className="flex justify-center items-center">
