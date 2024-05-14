@@ -31,7 +31,8 @@ export default function Projects() {
       description:
         "I developed a web application that empowers users to search for trains, book tickets, and manage train schedules and reservations. Leveraging my expertise in frontend technologies such as React.js, Bootstrap, Tailwind CSS, and SCSS, coupled with backend proficiency in .NET, I ensured a seamless user experience. By integrating SQL Server for efficient data management, I created a robust and user-friendly platform.",
       icons: [<IoLogoReact />, <SiDotnet />, <RiTailwindCssFill />,<FaSass/>, <SiMicrosoftsqlserver/>],
-      src: railway
+      src: railway,
+      href: "https://github.com/Lakna-Premachandra/Train-Ticket-Booking-App.git"
     },
     {
       id: 2,
@@ -39,7 +40,8 @@ export default function Projects() {
       description:
         "I contributed to the development of the Explore Sri Lanka Tourism Website, a user-friendly platform for discovering and booking tourism services in Sri Lanka. Using HTML, CSS, JavaScript, PHP, and MySQL, our team created an easy-to-use frontend and backend system. I played a significant role in developing the Explore Sri Lanka Website, focusing on the frontend aspects and database design. And there are 4 yser types customer, admin, Hotel and guides.",
       icons: [<FaHtml5 />, <FaCss3Alt />, <IoLogoJavascript />,<FaPhp/>, <SiMysql/>],
-      src: exploreSL
+      src: exploreSL,
+      href: "https://github.com/IshanArdithya/ExploreSriLanka.git"
     },
     {
       id: 3,
@@ -47,7 +49,8 @@ export default function Projects() {
       description:
         "I developed an Android application serving as a bridge between pet owners and caregivers, facilitating caregiving requests for pets. Built using Java in Android Studio, the app allows customers to post caregiving requests, which caregivers can then view and confirm. It fosters communication between both parties and includes features for managing profiles and feedback.  MySQL is used as the database management system.",
       icons: [<FaJava />, <SiMysql />, <IoLogoAndroid />],
-      src: petShopImage
+      src: petShopImage,
+      href: "https://github.com/Lakna-Premachandra/pet_care_shop.git"
     },
     {
       id: 4,
@@ -55,7 +58,8 @@ export default function Projects() {
       description:
         "I developed The Outer Clove Restaurant's Food Ordering web app. Customers can easily browse and order dishes, make reservations, and leave feedback. And, administrators are equipped with tools to efficiently manage users, food categories, dishes, orders, and feedback. Using HTML, CSS, and JavaScript for the frontend, PHP for backend functionality, and MySQL for the database, I ensured a smooth experience for both users and administrators.",
       icons: [<FaHtml5 />, <FaCss3Alt />, <IoLogoJavascript />,<FaPhp/>, <SiMysql/>],
-      src: restaurantImage
+      src: restaurantImage,
+      href: "https://github.com/Lakna-Premachandra/Outer-Clove-Restaurant-Website.git"
     },
     {
       id: 5,
@@ -63,7 +67,8 @@ export default function Projects() {
       description:
         "I developed a versatile and user-friendly application with Java and Java Swing, aimed at enhancing product management, stock control, user administration, billing processes within AppleiStore. This application offers a seamless experience for employees across various tasks. Users securely log in with unique credentials, Two types of users, cashier and manager, each equipped with specific functionalities tailored to their roles. ",
       icons: [<FaJava />],
-      src: appleiStore
+      src: appleiStore,
+      href: "https://github.com/Lakna-Premachandra/Apple-iStore.git"
     },
     {
       id: 6,
@@ -71,7 +76,8 @@ export default function Projects() {
       description:
         "I contributed to the frontend development of the 4U Company E-Commerce Website, a collaborative team project. Our platform empowers users to seamlessly navigate through various products, login, and effortlessly complete purchases. Using HTML, CSS, and JavaScript, I dedicated myself to crafting an immersive and visually captivating frontend experience. Backend  was  implemented using PHP and MySQL. ",
       icons: [<FaHtml5 />, <FaCss3Alt />, <IoLogoJavascript />,<FaPhp/>, <SiMysql/>],
-      src: forYouImage
+      src: forYouImage,
+      href: "https://github.com/Lakna-Premachandra/4u-website.git"
     },
   ];
 
@@ -108,7 +114,7 @@ export default function Projects() {
                   <button className="flex justify-start gap-3 pb-3  text-3xl text-blue-600">
                     {item.icons}
                   </button>
-                  <Link className="flex gap-1" to="">
+                  <Link className="flex gap-1 " target='_blank' to={item.href} >
                     Open in Github <FiArrowUpRight className="size-5" />
                   </Link>
                   </div>
