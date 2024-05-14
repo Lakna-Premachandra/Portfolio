@@ -7,9 +7,12 @@ import {
   FaSass,
   FaPhp,
   FaGithub,
+  FaJava,
 } from "react-icons/fa";
+import { IoLogoAndroid } from "react-icons/io";
 import { IoLogoJavascript, IoLogoReact } from "react-icons/io5";
 import { RiTailwindCssFill } from "react-icons/ri";
+import { SiMicrosoftsqlserver } from "react-icons/si";
 import { SiExpress, SiMysql, SiMongodb, SiDotnet } from "react-icons/si";
 import { FiArrowUpRight } from "react-icons/fi";
 import railway from "/images/railway.png";
@@ -26,48 +29,48 @@ export default function Projects() {
       id: 1,
       title: "Train seats booking website",
       description:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore assumenda maxime vel rerum quasi. Vero incidunt natus aspernatur, nemo magni eos dignissimos! Quos aperiam suscipit explicabo molestiae perferendis omnis expedita!",
-      icons: [<IoLogoReact />, <SiDotnet />, <RiTailwindCssFill />],
+        "I developed a web application that empowers users to search for trains, book tickets, and manage train schedules and reservations. Leveraging my expertise in frontend technologies such as React.js, Bootstrap, Tailwind CSS, and SCSS, coupled with backend proficiency in .NET, I ensured a seamless user experience. By integrating SQL Server for efficient data management, I created a robust and user-friendly platform.",
+      icons: [<IoLogoReact />, <SiDotnet />, <RiTailwindCssFill />,<FaSass/>, <SiMicrosoftsqlserver/>],
       src: railway
     },
     {
       id: 2,
       title: "Explore Sri Lanka Website",
       description:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore assumenda maxime vel rerum quasi. Vero incidunt natus aspernatur, nemo magni eos dignissimos! Quos aperiam suscipit explicabo molestiae perferendis omnis expedita!",
-      icons: [<IoLogoReact />, <SiDotnet />, <RiTailwindCssFill />],
+        "I contributed to the development of the Explore Sri Lanka Tourism Website, a user-friendly platform for discovering and booking tourism services in Sri Lanka. Using HTML, CSS, JavaScript, PHP, and MySQL, our team created an easy-to-use frontend and backend system. I played a significant role in developing the Explore Sri Lanka Website, focusing on the frontend aspects and database design. And there are 4 yser types customer, admin, Hotel and guides.",
+      icons: [<FaHtml5 />, <FaCss3Alt />, <IoLogoJavascript />,<FaPhp/>, <SiMysql/>],
       src: exploreSL
     },
     {
       id: 3,
       title: "Pet Care Shop App",
       description:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore assumenda maxime vel rerum quasi. Vero incidunt natus aspernatur, nemo magni eos dignissimos! Quos aperiam suscipit explicabo molestiae perferendis omnis expedita!",
-      icons: [<IoLogoReact />, <SiDotnet />, <RiTailwindCssFill />],
+        "I developed an Android application serving as a bridge between pet owners and caregivers, facilitating caregiving requests for pets. Built using Java in Android Studio, the app allows customers to post caregiving requests, which caregivers can then view and confirm. It fosters communication between both parties and includes features for managing profiles and feedback.  MySQL is used as the database management system.",
+      icons: [<FaJava />, <SiMysql />, <IoLogoAndroid />],
       src: petShopImage
     },
     {
       id: 4,
       title: "The Outer Clove Website",
       description:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore assumenda maxime vel rerum quasi. Vero incidunt natus aspernatur, nemo magni eos dignissimos! Quos aperiam suscipit explicabo molestiae perferendis omnis expedita!",
-      icons: [<IoLogoReact />, <SiDotnet />, <RiTailwindCssFill />],
+        "I developed The Outer Clove Restaurant's Food Ordering web app. Customers can easily browse and order dishes, make reservations, and leave feedback. And, administrators are equipped with tools to efficiently manage users, food categories, dishes, orders, and feedback. Using HTML, CSS, and JavaScript for the frontend, PHP for backend functionality, and MySQL for the database, I ensured a smooth experience for both users and administrators.",
+      icons: [<FaHtml5 />, <FaCss3Alt />, <IoLogoJavascript />,<FaPhp/>, <SiMysql/>],
       src: restaurantImage
     },
     {
       id: 5,
-      title: "Apple iStore",
+      title: "Apple iStore System",
       description:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore assumenda maxime vel rerum quasi. Vero incidunt natus aspernatur, nemo magni eos dignissimos! Quos aperiam suscipit explicabo molestiae perferendis omnis expedita!",
-      icons: [<IoLogoReact />, <SiDotnet />, <RiTailwindCssFill />],
+        "I developed a versatile and user-friendly application with Java and Java Swing, aimed at enhancing product management, stock control, user administration, billing processes within AppleiStore. This application offers a seamless experience for employees across various tasks. Users securely log in with unique credentials, Two types of users, cashier and manager, each equipped with specific functionalities tailored to their roles. ",
+      icons: [<FaJava />],
       src: appleiStore
     },
     {
       id: 6,
       title: "4u-Shop-Website",
       description:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore assumenda maxime vel rerum quasi. Vero incidunt natus aspernatur, nemo magni eos dignissimos! Quos aperiam suscipit explicabo molestiae perferendis omnis expedita!",
-      icons: [<IoLogoReact />, <SiDotnet />, <RiTailwindCssFill />],
+        "I contributed to the frontend development of the 4U Company E-Commerce Website, a collaborative team project. Our platform empowers users to seamlessly navigate through various products, login, and effortlessly complete purchases. Using HTML, CSS, and JavaScript, I dedicated myself to crafting an immersive and visually captivating frontend experience. Backend  was  implemented using PHP and MySQL. ",
+      icons: [<FaHtml5 />, <FaCss3Alt />, <IoLogoJavascript />,<FaPhp/>, <SiMysql/>],
       src: forYouImage
     },
   ];
