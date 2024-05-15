@@ -43,7 +43,7 @@ const Header = () => {
     <>
       <div className="header__wrapper w-full bg-white shadow-md fixed">
         <div className="header__container relative  max-w-5xl  m-auto flex text-white items-center justify-between p-5">
-          <div className="logo text-2xl tracking-widest leading-8 text-black font-bold flex max-[400px]:flex-col">Lakna <span className="text-[#2A78CB]">Premachandra</span></div>
+          <div className="logo text-2xl tracking-widest leading-8 text-black font-bold flex max-[420px]:flex-col">Lakna <span className="text-[#2A78CB]">Premachandra</span></div>
           <ul className="flex text-xl gap-3 max-sm:hidden">
           
           {links.map(link=>(
