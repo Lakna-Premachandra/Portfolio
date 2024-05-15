@@ -9,7 +9,7 @@ export default function HeroSection() {
   return (
     <>
       <section id="heroSection">
-        <div className="grid grid-cols-3 gap-10 max-w-5xl  m-auto p-4 pt-28 max-sm:grid-cols-1">
+        <div className="grid grid-cols-3 gap-10 max-w-5xl  m-auto p-4 pt-[8rem] max-sm:grid-cols-1">
           <div className="col-span-2 max-sm:col-span-1">
             <p className="text-xl mb-3 flex gap-2">
               Hello, <MdWavingHand className="fill-yellow-500 size-5" />
@@ -80,7 +80,7 @@ export default function HeroSection() {
 
           <div className="flex justify-center items-center">
             <img
-              className="     "
+              className=" max-w-[300px] w-full"
               src={myImage}
               alt="hero section image"
             />

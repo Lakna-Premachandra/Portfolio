@@ -4,6 +4,7 @@ import { RxCross2, RxHalf2 } from "react-icons/rx";
 import { Link } from "react-router-dom";
 import About from "../../about";
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import { HiMiniXMark } from "react-icons/hi2";
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
 
@@ -42,7 +43,7 @@ const Header = () => {
     <>
       <div className="header__wrapper w-full bg-white shadow-md fixed">
         <div className="header__container relative  max-w-5xl  m-auto flex text-white items-center justify-between p-5">
-          <div className="logo text-2xl tracking-widest leading-8 text-black font-bold">Lakna <span className="text-[#2A78CB]">Premachandra</span></div>
+          <div className="logo text-2xl tracking-widest leading-8 text-black font-bold flex max-[400px]:flex-col">Lakna <span className="text-[#2A78CB]">Premachandra</span></div>
           <ul className="flex text-xl gap-3 max-sm:hidden">
           
           {links.map(link=>(
@@ -58,7 +59,7 @@ const Header = () => {
             className="md:hidden absolute top-4 right-5 z-50 "
           >
             {showMenu ? (
-              <RxCross2 className="text-2xl fill-black" />
+              <HiMiniXMark className="text-3xl fill-black" />
             ) : (
               <TiThMenu className="text-2xl fill-black" />
             )}
@@ -66,8 +67,8 @@ const Header = () => {
         </div>
       </div>
       <div
-        className={`list-none w-full flex flex-col items-center gap-3 py-4 text-center md:hidden absolute transition-all duration-500 bg-[#2A78CB] text-white ${
-          showMenu ? "top-[4rem]" : "top-[-200px]"
+        className={`list-none w-[300px] h-full right-0 fixed flex flex-col items-center gap-8 py-6 text-center md:hidden transition-all duration-500 bg-[#2A78CB] text-white ${
+          showMenu ? "top-[4rem]" : "top-[-2000px]" 
         }`}
       >
         

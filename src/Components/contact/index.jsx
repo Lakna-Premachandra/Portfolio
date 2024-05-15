@@ -52,7 +52,7 @@ export default function Contact() {
               <p className='leading-7 tracking-wider'>76/1A, Sri Dharmarama Road, Rathmalana, Sri Lanka</p>
             </div>
           </div>
-          <div className='p-4 border-2 border-blue-200 rounded-lg'>
+          <div className='p-4 rounded-lg'>
             <form className="flex flex-col justify-center items-center gap-5 " ref={form} onSubmit={sendEmail}>
               <input className='border border-zinc-400 p-3 rounded-full focus:outline-none max-w-80 w-full' type="text" name="from_name" placeholder='Your Name' />
               <input className='border p-3 rounded-full border-zinc-400 focus:outline-none max-w-80 w-full' type="text" name="to_name" placeholder='Your Email' />
