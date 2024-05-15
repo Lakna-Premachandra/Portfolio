@@ -56,7 +56,7 @@ const Header = () => {
           
           <button
             onClick={clickMenu}
-            className="md:hidden absolute top-4 right-5 z-50 "
+            className="md:hidden absolute top-6 right-5 z-50 "
           >
             {showMenu ? (
               <HiMiniXMark className="text-3xl fill-black" />
