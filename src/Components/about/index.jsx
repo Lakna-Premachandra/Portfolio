@@ -1,5 +1,6 @@
 import React from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import myImage from '/images/img1.jpg';
 
 export default function About() {
   return (
@@ -14,7 +15,7 @@ export default function About() {
           </div>
           
           <div className="flex justify-center items-center">
-          <img className="max-w-[300px] w-full rounded-md shadow-lg flex justify-center items-c" src="./images/img1.jpg" alt="about image" />
+          <img className="max-w-[300px] w-full rounded-md shadow-lg flex justify-center items-c" src={myImage} alt="about image" />
           </div>
         </div>
       </div>

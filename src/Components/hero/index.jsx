@@ -3,7 +3,7 @@ import { MdWavingHand } from "react-icons/md";
 import { FaLinkedinIn, FaGithub, FaFacebookF } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
 import { Link } from "react-router-dom";
-// import resume from "./images/Lakna.pdf";
+import myImage from '/images/img2.png';
 
 export default function HeroSection() {
   return (
@@ -80,8 +80,8 @@ export default function HeroSection() {
 
           <div className="flex justify-center items-center">
             <img
-              className="max-w-[300px] w-full rounded-2xl shadow-lg  "
-              src="./images/img1.jpg"
+              className="     "
+              src={myImage}
               alt="hero section image"
             />
           </div>
