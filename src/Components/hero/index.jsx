@@ -5,6 +5,7 @@ import { AiFillInstagram } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import myImage from "../../../public/images/lakna.jpg";
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import pdf from '../../../public/images/Lakna.pdf'
 
 export default function HeroSection() {
   return (
@@ -74,7 +75,7 @@ export default function HeroSection() {
             </div>
             <div className="flex items-center gap-2">
               <button className="bg-[#2A78CB] text-white font-bold p-2 rounded-md tracking-wider">
-                <a href="public/images/Lakna.pdf" download="LaknaResume.pdf">
+                <a href={pdf} download="LaknaResume.pdf">
                   Download My CV
                 </a>
               </button>
