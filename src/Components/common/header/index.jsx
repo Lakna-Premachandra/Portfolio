@@ -18,11 +18,11 @@ const Header = () => {
       name:"Home",
       href:"#heroSection"
     },
-    {
-      id:2,
-      name:"About",
-      href:"#about"
-    },
+    // {
+    //   id:2,
+    //   name:"About",
+    //   href:"#about"
+    // },
     {
       id:3,
       name:"Skills",
@@ -74,7 +74,7 @@ const Header = () => {
         
         <li> <AnchorLink href='#heroSection'> <p className="text-base hover:text-yellow-400" onClick={()=>setShowMenu("heroSection")}>Home</p></AnchorLink></li>
 
-        <li> <AnchorLink href='#about'><p className="text-base hover:text-yellow-400" onClick={()=>setShowMenu("about")}>About</p></AnchorLink></li>
+        {/* <li> <AnchorLink href='#about'><p className="text-base hover:text-yellow-400" onClick={()=>setShowMenu("about")}>About</p></AnchorLink></li> */}
 
       <li> <AnchorLink href='#skills'><p className="text-base hover:text-yellow-400" onClick={()=>setShowMenu("skills")}>Skills</p></AnchorLink></li>
 

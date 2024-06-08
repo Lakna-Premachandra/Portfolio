@@ -11,11 +11,11 @@ export default function Footer() {
       name:"Home",
       href:"#heroSection"
     },
-    {
-      id:2,
-      name:"About",
-      href:"#about"
-    },
+    // {
+    //   id:2,
+    //   name:"About",
+    //   href:"#about"
+    // },
     {
       id:3,
       name:"Skills",
