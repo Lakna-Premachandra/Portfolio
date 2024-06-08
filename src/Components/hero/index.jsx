@@ -3,12 +3,13 @@ import { MdWavingHand } from "react-icons/md";
 import { FaLinkedinIn, FaGithub, FaFacebookF } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
 import { Link } from "react-router-dom";
-import myImage from '/images/img2.png';
+import myImage from "../../../public/images/lakna.jpg";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 export default function HeroSection() {
   return (
     <>
-      <section id="heroSection">
+      <section id="heroSection " className="mb-4">
         <div className="grid grid-cols-3 gap-10 max-w-5xl  m-auto p-4 pt-[8rem] max-sm:grid-cols-1">
           <div className="col-span-2 max-sm:col-span-1">
             <p className="text-xl mb-3 flex gap-2">
@@ -71,11 +72,17 @@ export default function HeroSection() {
                 </li>
               </ul>
             </div>
-            <button className="bg-[#2A78CB] text-white font-bold p-2 rounded-md tracking-wider">
-              <a href="public/images/Lakna.pdf" download="LaknaResume.pdf">
-              Download My CV
-            </a>
-            </button>
+            <div className="flex items-center gap-2">
+              <button className="bg-[#2A78CB] text-white font-bold p-2 rounded-md tracking-wider">
+                <a href="public/images/Lakna.pdf" download="LaknaResume.pdf">
+                  Download My CV
+                </a>
+              </button>
+              <button className=" bg-[#2A78CB] text-white font-bold p-2 rounded-md tracking-wider">
+                {" "}
+                <AnchorLink href="#contact"> Contact Me</AnchorLink>
+              </button>
+            </div>
           </div>
 
           <div className="flex justify-center items-center">
