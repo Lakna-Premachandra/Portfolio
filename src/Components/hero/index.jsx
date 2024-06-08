@@ -10,7 +10,7 @@ import pdf from '../../../public/images/Lakna.pdf'
 export default function HeroSection() {
   return (
     <>
-      <section id="heroSection " className="mb-4">
+      <section id="heroSection" className="mb-4">
         <div className="grid grid-cols-3 gap-10 max-w-5xl  m-auto p-4 pt-[8rem] max-sm:grid-cols-1">
           <div className="col-span-2 max-sm:col-span-1">
             <p className="text-xl mb-3 flex gap-2">
