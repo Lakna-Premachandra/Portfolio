@@ -32,7 +32,7 @@ export default function Skills() {
     },
     {
       id: 1,
-      title: "Techstack",
+      title: "Tools",
       icons: [<FaGithub />]
     },
   ];
